@@ -239,3 +239,6 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 # Enable MultiWindow
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     persist.sys.debug.multi_window=true
+
+# Extra Vendor 
+$(call inherit-product, vendor/sony/kanuti-vendor/kanuti-vendor-vendor-blobs.mk)
